@@ -1,3 +1,8 @@
+/**
+ * Takes in a query string and returns the replaced string with better replacements
+ * @param {queryText} queryText the string to be modified for further lookup
+ * @returns String
+ */
 function extendQuery(queryText) {
   const result = queryText
     .trim() // remove terminal whitespaces
