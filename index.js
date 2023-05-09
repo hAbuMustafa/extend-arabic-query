@@ -16,8 +16,8 @@ function extendQuery(queryText) {
     .replace(/ؤ(?![^\(\[]*[\)\]])/g, '[اأإآءئؤو]') // The "HAMZA" on a "WAW" is expected to be mistaken for a "WAW" or a "HAMZA" on a "WAW" or other forms of "HAMZA"s
     .replace(/و(?![^\(\[]*[\)\]])/g, '[وؤ]') // the "WAW" however is expected to be mistaken for a "HAMZA" on a "WAW"
     .replace(/[يى](?![^\(\[]*[\)\]])/g, '[يئى]') // "YAA" or shortened "ALEF" are expected to be mistaken for either of both, or even a "HAMZA" on a "YAA"
-    .replace(/[زذ](?![^\(\[]*[\)\]])/g, '[زذ]') // Egyptians specefically are expected to mis-use both charactes and they might use them interchangebly uncounciously
-    .replace(/[ثس](?![^\(\[]*[\)\]])/g, '[ثس]'); // Egyptians specefically are expected to mis-use both charactes and they might use them interchangebly uncounciously
+    .replace(/[زذ](?![^\(\[]*[\)\]])/g, '[زذ]') // Egyptians specifically are expected to mis-use both charactes and they might use them interchangebly uncounciously
+    .replace(/[ثس](?![^\(\[]*[\)\]])/g, '[ثس]'); // Egyptians specifically are expected to mis-use both charactes and they might use them interchangebly uncounciously
   return result;
 }
 
