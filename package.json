@@ -1,7 +1,7 @@
 {
   "name": "extend-arabic-query",
   "version": "0.1.2",
-  "description": "\u0016provides RegEx strings with extension regex lists for commonly misinterpreted letters.",
+  "description": "provides RegEx strings with extension regex lists for commonly misinterpreted letters.",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/scripts.js"
