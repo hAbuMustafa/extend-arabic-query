@@ -1,0 +1,31 @@
+{
+  "name": "extend-arabic-query",
+  "version": "0.1.2",
+  "description": "\u0016provides RegEx strings with extension regex lists for commonly misinterpreted letters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/scripts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hAbuMustafa/extend-arabic-query.git"
+  },
+  "keywords": [
+    "arabic",
+    "search",
+    "query",
+    "extend",
+    "replace",
+    "عربي",
+    "عربى",
+    "بحث",
+    "توسيع",
+    "معطيات"
+  ],
+  "author": "Hosam Hamdy AbuMustafa (hAbuMustafa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hAbuMustafa/extend-arabic-query/issues"
+  },
+  "homepage": "https://github.com/hAbuMustafa/extend-arabic-query#readme"
+}
