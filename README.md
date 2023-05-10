@@ -2,6 +2,8 @@
 
 This package provides a function that returns a modified string with RegEx fixes to the most commonly found typos or unopenionated letter substitutions.
 
+![Usage example showing the use of match method on a string against another string with substituted letter](./statics/usage_example.gif)
+
 ## Usage
 
 Use the function `extendQuery(string)` **ONLY** in querying/search as the first argument for `RegExp()` or any other RegEx like `.match()` or `.replace()`. **NEVER** use it to fix actual strings.
