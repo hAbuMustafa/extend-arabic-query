@@ -11,6 +11,8 @@ As mentioned before, the function uses regular expressions (RegEx), so you can a
 
 **Note** that, the function skips any text enclosed between `(`parenthesis`)` or `[`square parenthesis`]`. That's how it works, to avoid substituting the performed substitutions, which might eventually cause an infinit loop.
 
+**Also, note that** it works by default on single line strings. So, if you are matching against a multiline string, simply add the `'m'` flag to the second argument in the `RegExp()` class.
+
 ## Install
 
 Simply install the package into your project `node_modules/` via your package manager:
