@@ -2,9 +2,12 @@
   "name": "extend-arabic-query",
   "version": "0.1.7",
   "description": "provides RegEx strings with extension regex lists for commonly misinterpreted letters.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node ./test/scripts.js"
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,10 @@
   "bugs": {
     "url": "https://github.com/hAbuMustafa/extend-arabic-query/issues"
   },
-  "homepage": "https://github.com/hAbuMustafa/extend-arabic-query#readme"
+  "homepage": "https://github.com/hAbuMustafa/extend-arabic-query#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
 }
