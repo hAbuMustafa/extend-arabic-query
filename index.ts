@@ -1,9 +1,9 @@
 /**
  * Takes in a query string and returns the replaced string with better replacements
- * @param {queryText} queryText the string to be modified for further lookup
+ * @param {string} queryText the string to be modified for further lookup
  * @returns String
  */
-function extendQuery(queryText) {
+export function extendQuery(queryText: string) {
   const result = queryText
     .trim() // remove terminal whitespaces
     .replace(/\s+/g, ' ') // remove all extra whitespaces
@@ -24,5 +24,3 @@ function extendQuery(queryText) {
     .replace(/[ثس](?![^\(\[]*[\)\]])/g, '[ثس]'); // Egyptians specifically are expected to mis-use both charactes and they might use them interchangebly uncounciously
   return result;
 }
-
-module.exports = extendQuery;
