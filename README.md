@@ -28,5 +28,5 @@ yarn extend-arabic-query
 Then, import the function to your module or javascript file:
 
 ```js
-import extendQuery from 'extend-arabic-query';
+import { extendQuery } from 'extend-arabic-query';
 ```
