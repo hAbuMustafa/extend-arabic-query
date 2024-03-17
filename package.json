@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
-    "test": "jest"
+    "test": "jest",
+    "publish": "npm version patch --no-git-tag-version && npm publish --access public"
   },
   "repository": {
     "type": "git",
