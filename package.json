@@ -1,13 +1,13 @@
 {
   "name": "extend-arabic-query",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "provides RegEx strings with extension regex lists for commonly misinterpreted letters.",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
     "test": "jest",
-    "publish": "npm version patch --no-git-tag-version && npm publish --access public"
+    "publish": "npm version patch --no-git-tag-version"
   },
   "repository": {
     "type": "git",
