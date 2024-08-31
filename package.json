@@ -12,6 +12,8 @@
     "lint": "tsc",
     "dev": "vitest",
     "test": "vitest run",
+    "local-release": "changeset version && changeset publish",
+    "prepuplishOnly": "npm run ci",
     "publish": "npm version patch --no-git-tag-version"
   },
   "files": [
@@ -43,6 +45,7 @@
   "homepage": "https://github.com/hAbuMustafa/extend-arabic-query#readme",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.15.4",
+    "@changesets/cli": "^2.27.7",
     "concurrently": "^8.2.2",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
