@@ -31,6 +31,7 @@ export function regexify(str: string, flags?: string): RegExp {
   return regex;
 }
 
-export function compare(str1: string, str2: string): boolean {
-  return regexify(str2).test(str1) || regexify(str1).test(str2);
+export function compare(str1: string, ...strs: string[]): boolean {
+  const regex = regexify(str1);
+  return strs.every((str) => regex.test(str));
 }
