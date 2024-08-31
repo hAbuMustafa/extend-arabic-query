@@ -31,6 +31,12 @@ export function regexify(str: string, flags?: string): RegExp {
   return regex;
 }
 
+/**
+ * Takes in at least 2 strings, and checks to see if they are both phonetically equivalent.
+ * @param {string} str1 The first string to be compared
+ * @param {string[]} strs Other strings to be compared
+ * @returns {boolean}
+ */
 export function compare(str1: string, ...strs: string[]): boolean {
   const regex = regexify(str1);
   return strs.every((str) => regex.test(str));
