@@ -1,5 +1,11 @@
 # extend-arabic-query
 
+## 0.2.20
+
+### Patch Changes
+
+- f859ece: fixed missing file content
+
 ## 0.2.18
 
 ### Patch Changes
