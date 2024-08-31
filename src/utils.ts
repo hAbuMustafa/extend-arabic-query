@@ -25,6 +25,12 @@ export function getRegexString(queryText: string): string {
   return result;
 }
 
+/**
+ * Takes the text to be converted to a RegExp object and returns the RegExp object after replacing the string with the regex patterns
+ * @param str The RegEx string to be converted to a RegExp object
+ * @param flags all regex flags to consider (optional)
+ * @returns {RegExp}
+ */
 export function regexify(str: string, flags?: string): RegExp {
   const regex = new RegExp(getRegexString(str), flags);
 
