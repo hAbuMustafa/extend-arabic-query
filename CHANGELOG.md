@@ -1,5 +1,11 @@
 # extend-arabic-query
 
+## 0.3.0
+
+### Minor Changes
+
+- da1f8b1: using the new `compare` func with multiple entries
+
 ## 0.2.20
 
 ### Patch Changes

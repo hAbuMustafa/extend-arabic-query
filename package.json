@@ -1,6 +1,6 @@
 {
   "name": "extend-arabic-query",
-  "version": "0.2.20",
+  "version": "0.3.0",
   "description": "Provides RegEx alternatives to fuzzy-compare against arabic text.",
   "main": "dist/index.js",
   "scripts": {
