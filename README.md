@@ -10,7 +10,7 @@ compare('أحمد زكي', 'احمد ذكى'); // returns `true`
 
 ## Usage
 
-The usage is as simple as `compare(string1, string2, string3[, ...strings])`. This will only return `true` if the two strings are phoenitically equivalent.
+The usage is as simple as `compare(string1, string2[, ...strings])`. This will only return `true` if all strings are phonetically equivalent.
 You also have 2 more functions to use: `getRegexString(string)` and `regexify(string[, flags])`;
 
 - `getRegexString(string)` returns a string with all the substitutions that will be performed on the input string. This string essentially forms the RegEx that will be used for the comparison. You can use it in initializing a RegEx object, or just use it to see what the function will do.
