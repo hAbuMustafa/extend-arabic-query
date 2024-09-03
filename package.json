@@ -40,7 +40,10 @@
     "توسيع",
     "معطيات"
   ],
-  "author": "Hosam Hamdy AbuMustafa <hosam5553@gmail.com> (https://hosam.xyz)",
+  "author": "Hosam Hamdy <hosam5553@gmail.com> (https://hosam.xyz)",
+  "maintainers": [
+    "Hosam Hamdy <hosam5553@gmail.com> (https://hosam.xyz)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hAbuMustafa/extend-arabic-query/issues"
