@@ -1,3 +1,3 @@
-import { getRegexString, regexify, compare } from './utils';
+import { getRegexString, regexify, compare, extendQuery } from './utils';
 
-export { getRegexString, regexify, compare };
+export { getRegexString, regexify, compare, extendQuery };

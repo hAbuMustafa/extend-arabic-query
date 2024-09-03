@@ -47,3 +47,17 @@ export function compare(str1: string, ...strs: string[]): boolean {
   const regex = regexify(str1);
   return strs.every((str) => regex.test(str));
 }
+
+// DEPRECATION ZONE
+
+/**
+ * Takes in a text string and converts it to an expanded strings that can be used in a RegEx to check for alike strings
+ * @deprecated since version 0.3.0.
+ * Use `getRegexString` instead, or do the comparison directly using `compare`.
+ * @param {string} queryText the string you want to expand to a RegEx string
+ * @returns {string}
+ */
+export function extendQuery(queryText : string){
+  
+  return getRegexString(queryText)
+}
