@@ -1,6 +1,6 @@
 {
   "name": "extend-arabic-query",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Provides RegEx alternatives to fuzzy-compare against arabic text.",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "test": "vitest run",
     "local-release": "changeset version && changeset publish",
     "prepuplishOnly": "npm run ci",
-    "publish": "npm version patch --no-git-tag-version"
+    "release": "npm run build && npm run format && npx changeset && npm run local-release"
   },
   "files": [
     "dist"

@@ -1,5 +1,11 @@
 # extend-arabic-query
 
+## 0.3.2
+
+### Patch Changes
+
+- fc4be00: added deprecated function for backwards compatibility
+
 ## 0.3.0
 
 ### Minor Changes
