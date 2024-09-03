@@ -57,7 +57,6 @@ export function compare(str1: string, ...strs: string[]): boolean {
  * @param {string} queryText the string you want to expand to a RegEx string
  * @returns {string}
  */
-export function extendQuery(queryText : string){
-  
-  return getRegexString(queryText)
+export function extendQuery(queryText: string) {
+  return getRegexString(queryText);
 }
