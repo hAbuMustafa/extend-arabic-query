@@ -14,7 +14,7 @@
     "test": "vitest run",
     "local-release": "changeset version && changeset publish",
     "prepuplishOnly": "npm run ci",
-    "release": "npm run build && npm run format && npx changeset && npm run local-release"
+    "publish": "npm run build && npm run format && npx changeset && npm run local-release"
   },
   "files": [
     "dist"
